@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Admin Home</title>
+</head>
+<body>
+<h1>Bienvenido, Administrador</h1>
+<p>Este es el panel de control del administrador.</p>
+
+<ul>
+    <li><a th:href="@{/vendedor/home}">Ir al panel de vendedor</a></li>
+    <li><a th:href="@{/cliente/home}">Ir al panel de cliente</a></li>
+</ul>
+
+<a th:href="@{/logout}">Cerrar sesión</a>
+</body>
+</html>

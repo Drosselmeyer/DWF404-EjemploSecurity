@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Vendedor Home</title>
+</head>
+<body>
+<h1>Bienvenido, Vendedor</h1>
+<p>Este es el panel de control del vendedor. Aquí puedes gestionar ventas, productos, etc.</p>
+
+<ul>
+    <li><a th:href="@{/cliente/home}">Ver el panel de cliente</a></li>
+</ul>
+
+<a th:href="@{/logout}">Cerrar sesión</a>
+</body>
+</html>
